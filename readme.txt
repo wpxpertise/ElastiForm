@@ -1,29 +1,54 @@
-=== Simple Form ===
-Contributors: devsabbirahmed 
-Tags: simple-form, form, contact form, lead-form, form, social media
-Requires at least: 5.0 or higher
-Tested up to: 6.0.2
-Requires PHP: 5.4 or higher
-Stable Tag: 1.0.3
+=== ElastiForm ===
+Contributors: elsdev
+Tags: elastic forms, drag and drop, multi-step forms, lead generation, whatsapp form
+Requires at least: 5.9
+Tested up to: 6.7
+Requires PHP: 5.6
+Stable Tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+Flexible Form Builder for WordPress with Drag & Drop Editor, WhatsApp Redirection & Floating Widgets
+
 == Description ==
 
-Introducing Simple From to collect all the leads via a simple form makes life easier. The plugin is mainly brought to users by using this theory of how to create custom forms without knowing any programming language.
+**ElastiForm** is the versatile form builder plugin that adapts to your unique needs. Create beautiful, functional forms without coding through our intuitive drag-and-drop interface. From simple contact forms to complex multi-step surveys with payment integration, ElastiForm flexes to meet your requirements.
 
-It's a simple contact form that lets you easily create forms via the drag-and-drop feature. You can use this form using a shortcode anywhere on your website. It's totally free to collect all leads from the created forms.
-Works across all operating systems including Android, iOS, and macOS. No settings are needed. 
-**[Made for educational purposes only]**
+Transform how you collect and manage leads with ElastiForm's powerful features designed for maximum conversion and engagement.
 
-[youtube https://www.youtube.com/watch?v=L6EmXREa6OA&rel=0]
+### Why Choose ElastiForm?
 
-=== Simple Form Features ===
+* **Truly Flexible Form Building** - Our drag-and-drop builder allows you to create any type of form imaginable without technical expertise
+* **Effortless Lead Management** - Collect, organize, and analyze leads all in one place
+* **Social Integration Done Right** - Seamlessly redirect form submissions to WhatsApp for instant communication
+* **Conversion-Focused Design** - Floating widgets and strategic form placement options maximize engagement
+* **Lightning-Fast Performance** - Optimized code ensures your forms load quickly and perform reliably
 
-1. **Drag and drop feature** –You can create forms easily using the form builder drag and drop feature.
-2. **Collect the lead** – Easily collect all the lead by placing the form anywhere in your website just by using shortcode
+### ElastiForm Core Features
 
-👁️ [View Tutorial](https://youtu.be/fyfENNC0sbo) | | 👩🏼‍💻 [Get Support](https://wordpress.org/support/plugin/simple-form/)
+* **Intuitive Drag and Drop Builder** – Create professional forms in minutes by simply dragging and dropping elements. No coding required!
+
+* **Seamless Lead Collection** – Capture leads anywhere on your site using shortcodes or floating widgets. All submissions are stored in an organized dashboard for easy management.
+
+* **WhatsApp Integration** – Enable direct redirection to WhatsApp after form submission, allowing instant communication with your prospects and customers.
+
+* **Floating Form Widgets** – Increase conversion rates with strategically placed floating form widgets that capture attention without disrupting the user experience.
+
+* **Versatile Shortcode Implementation** – Place your forms anywhere on your site using simple shortcodes that work in posts, pages, and widgets.
+
+* **Responsive Design** – All forms automatically adapt to any screen size, ensuring a perfect experience on mobile, tablet, and desktop.
+
+### Perfect For
+
+* Contact forms
+* Lead generation forms
+* Feedback and survey forms
+* Registration forms
+* Payment forms
+* Multi-step forms
+* Support request forms
+* Application forms
+* Booking and appointment forms
 
 == Installation ==
 
@@ -31,22 +56,21 @@ Works across all operating systems including Android, iOS, and macOS. No setting
 2. Activate the plugin through the 'Plugins' screen in WordPress
 
 === How to Use ===
-After activating the plugin navigate to your Admin Dashboard > Simple Form > Form and from there build your required form using drag and drop. Next save it with any form name.
+After activating the plugin navigate to your Admin Dashboard > ElastiForm > Form and from there build your required form using drag and drop. Next save it with any form name.
 You will then automatically be redirected to the "Data" page, from there you can edit your form or create a form on any of your pages or posts using the shortcode.
 
+
 == Screenshots ==
-1. Form Banner 
-2. Form Logo/Icon
-3. Screenshot-1-4
+1. Form Dashboard 
+2. Form Builder- Advance Drag & Drop with TypeScript
+3. Leads view page
+4. Leads view page
+5. Settings Page
+6. Floating Widgets
 
 
 == Changelog ==
 
-= 1.0.2 =
-* Fix: Fix minor bugs.
-
-= 1.0.1 =
-* Fix: Icon.
 
 = 1.0.0 =
 * Inital commit of plugin

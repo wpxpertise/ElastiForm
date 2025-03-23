@@ -1,0 +1,155 @@
+$breakpoint-small: 768px;
+
+.acb_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+  font-family: system-ui;
+
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column;
+  }
+
+  .acb_left,
+  .acb_right {
+    width: 48%;
+
+    @media (max-width: $breakpoint-small) {
+      width: 100%;
+    }
+  }
+
+  .acb_left {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // text-align: center;
+    margin: 25px;
+    box-shadow: 2px 4px 10px 1px rgb(201 201 201 / 47%);
+    padding: 14px;
+
+    h3.review-case-title {
+      font-size: 20px;
+      font-family: system-ui;
+    }
+
+    .wpnts-switch-floating,
+    .wpnts-switch-review,
+    .wpnts-switch-customization {
+      display: flex;
+      align-items: center;
+      margin-bottom: 60px;
+      justify-content: space-between;
+
+      label {
+        margin-right: 10px;
+      }
+
+      .react-switch {}
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .save-webhook {
+        margin-top: 15px;
+      }
+    }
+
+    .no-tables-intro-img {
+      img {
+        width: 40vh;
+        height: 40vh;
+      }
+    }
+
+    .no-tables-intro-img {
+      text-align: center;
+    }
+  }
+
+  .acb_right {
+    margin-top: 30px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      // align-items: center;
+      width: 90%;
+
+      .formInput {
+        margin-bottom: 15px;
+
+        label {
+          margin-bottom: 5px;
+        }
+
+        select,
+        input,
+        .react-switch {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+          margin-top: 5px;
+
+        }
+
+        input.colorSelectionformtext,
+        input.colorSelectionbg,
+        input.colorSelectionformtextcolor,
+        input#submitbtntextcolor,
+        input#submitbtntexthovercolor {
+          height: 50px;
+          width: 50%;
+        }
+
+        .seperationLine {
+          hr {}
+        }
+
+        .reviewSwitch {}
+      }
+
+      .sf-customization {
+        display: flex;
+        flex-direction: column;
+
+        .formInput.open-new-tab {
+          display: flex;
+          text-align: center;
+          align-items: center;
+          gap: 5px;
+
+          input[type="checkbox"] {
+            width: 10px;
+            margin-top: -5px;
+          }
+
+
+        }
+
+      }
+
+      .save-webhook {
+        margin-top: 15px;
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+        width: 120px;
+      }
+
+      .ElastiForm-colorplate {
+        margin-top: 15px;
+      }
+    }
+  }
+}

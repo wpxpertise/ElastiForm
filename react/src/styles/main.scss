@@ -1,0 +1,265 @@
+/******************************************************
+All the default css will place here...
+******************************************************/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Add here 
+
+.btn {
+    padding: 15px 20px;
+    background: #0d4c62;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #f8f9fa;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    /* width: 21px; */
+    height: 50px;
+    white-space: nowrap;
+
+    svg {
+        margin-left: 10px;
+    }
+
+    &.btn-secondary {
+        padding: 5px 15px;
+        background: #7f54b3;
+        border-radius: 4px;
+    }
+
+    &.btn-xl {
+        padding: 15px 100px;
+    }
+
+    &.btn-lg {
+        padding: 15px 50px;
+    }
+
+    &.btn-md {
+        padding: 15px 30px;
+    }
+
+    &.btn-manage {
+        color: #ffffff;
+        background-color: #3858E9;
+
+        &:hover,
+        &:focus {
+            background-color: darken($color: #3858E9, $amount: 10px);
+        }
+    }
+
+    &.add-new-table-btn {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        color: #939393;
+        border: 1px dashed #bdc8c4;
+        background-color: white;
+
+        svg {
+            margin-right: 10px;
+        }
+
+        &:hover {
+            box-shadow: rgb(240, 242, 248) 0px 0px 0px 5px;
+            color: #939393;
+            background-color: white;
+        }
+
+        &:focus {
+            color: #939393;
+            border: 1px dashed #bdc8c4;
+            box-shadow: none;
+            outline: none;
+        }
+    }
+
+    &.ctaBtn {
+        padding: 5px 15px;
+        background: #7f54b3;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #f8f8f8;
+
+        &:hover {
+            color: white;
+            background-color: darken($color: #7f54b3, $amount: 10%);
+        }
+    }
+
+    &:hover {
+        color: white;
+        background-color: darken($color: #2bb885, $amount: 10%);
+    }
+
+    &:focus {
+        color: white;
+        border: none;
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+// Delete button from dashboard
+.table-delete {
+    max-width: 15px;
+    width: 100%;
+    height: 15px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+
+    svg {
+        path {
+            transition: all 0.3s ease;
+        }
+    }
+
+    &:hover {
+        animation: delete-shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+
+        svg {
+            path {
+                fill: #d63638;
+            }
+        }
+    }
+
+    &:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+// Edit button from dashboard
+.table-edit {
+    margin-right: 32px;
+    // max-width: 15px;
+    width: 100%;
+    height: 15px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    h4.ElastiForm-title.h4 {
+        &:hover {
+            color: #2271b1 !important;
+        }
+    }
+}
+
+// Shortcode button from dashboard
+.btn-shortcode {
+    border: 1px solid #e9e8e8;
+    border-radius: 11px;
+    padding: 9px;
+    background: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-out 0s;
+
+    svg {
+        margin-right: 6px;
+    }
+
+    &:hover {
+        box-shadow: rgb(240, 242, 248) 0px 0px 0px 5px !important;
+    }
+
+    &:focus {
+        color: #1e1e1e;
+        border: 1px solid #e1e4ea;
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+//Input Styles
+input[type="text"],
+input[type="search"] {
+    padding: 14px 16px 12px 20px;
+    background: #ffffff;
+    border: 1px solid #edeff1;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666873;
+    outline: none;
+    width: 100%;
+    height: 50px;
+
+    &:focus {
+        border: 1px solid #edeff1;
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666873;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666873;
+}
+
+::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666873;
+}

@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
+        'name' => 'samiu/elastiform',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'bf8909392744fe55d11e023d1a33d7aa47abefe3',
-        'name' => 'samiu/simple-form',
         'dev' => true,
     ),
     'versions' => array(
-        'samiu/simple-form' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
+        'samiu/elastiform' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'bf8909392744fe55d11e023d1a33d7aa47abefe3',
             'dev_requirement' => false,
         ),
     ),

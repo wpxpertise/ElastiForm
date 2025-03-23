@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'SFSF\\Inc\\' => array($baseDir . '/inc'),
+    'ElastiForm\\' => array($baseDir . '/app'),
 );
